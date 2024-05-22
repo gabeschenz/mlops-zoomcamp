@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "mlops-zoomcamp"
+version = "0.1.0"
+description = ""
+authors = ["GabeSchenz <jschenz@chewy.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+jupyter = "^1.0.0"
+pyarrow = "^16.1.0"
+pandas = "^2.2.2"
+pandas-pyarrow = "^0.1.6"
+scikit-learn = "^1.5.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
